@@ -3,7 +3,7 @@ twitter_oauth - Send an authorized OAuth request to the Twitter REST API in Lass
 
 Read the article `twitter_oauth - Send an authorized OAuth request to the
 Twitter REST API in Lasso 9
-<http://www.stevepiercy.com/articles/twitter_oauth-use-the-twitter-rest-api-to-send-an-authorized-oauth-request-in-lasso-9/>`_.
+<http://www.stevepiercy.com/articles/twitter_oauth-send-an-authorized-oauth-request-to-the-twitter-rest-api-in-lasso-9/>`_.
 
 Introduction
 ============
