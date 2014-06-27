@@ -70,6 +70,13 @@ define twitter_oauth => type {
         return .'baseurl'
     }
     public additional=(v) => {
+        // check to ensure there are no duplicate additional parameters
+        // see note [2] https://dev.twitter.com/docs/auth/creating-signature#note-sorting
+        local(s) = set
+        with x in #v do => {
+            #s->insert(#x)
+        }
+        fail_if(#v->size != #s->size, 'Duplicate additional parameters are not permitted.')
         .'additional' = #v
         return .'additional'
     }
