@@ -195,11 +195,11 @@ repository.
 Download or clone the `twitter_oauth
 <https://github.com/stevepiercy/twitter_oauth>`_ type.
 
-Edit the file ``twitter_oauth.inc`` to use your Twitter Application
+Edit the file ``twitter_oauth.lasso`` to use your Twitter Application
 configuration settings, and save.
 
-Install both files ``sp_string_random.inc`` and ``twitter_oauth.inc`` where
-you think is best. Either place it in your Lasso Server's or Instances's
+Install both files ``sp_string_random.lasso`` and ``twitter_oauth.lasso``
+where you think is best. Either place it in your Lasso Server's or Instances's
 ``LassoStartup`` directory, restarting the appropriate scope as needed. I
 recommend Lasso Instance ``LassoStartup``.
 
