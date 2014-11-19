@@ -138,12 +138,12 @@ Examples
         )
         #f->append('</p>\n')
     }
-    '<textarea>' + #f + '<textarea>'
+    '<textarea cols="100" rows="20">' + #f + '</textarea>'
 
 .. code-block:: html
 
     =>
-    <textarea>
+    <textarea cols="100" rows="20">
     <p>RT <a href="https://twitter.com/iElectric">@iElectric</a>: Introducing Multi File Upload for Substance D by <a href="https://twitter.com/reebalazs">@reebalazs</a> <a href="http://t.co/N6eUoSBS4s">http://t.co/N6eUoSBS4s</a></p>
     <p>Testing new Twitter oAuth type for Lasso</p>
     <p>Pretty print JSON with <a href="https://twitter.com/BBEdit">@BBEdit</a> and Python <a href="http://t.co/EhCg67GPAV">http://t.co/EhCg67GPAV</a></p>
